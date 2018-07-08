@@ -23,6 +23,7 @@
 						while($urow=mysqli_fetch_array($quser)){
 							?>
 								<tr>
+                                    <td><?php echo $urow['id']; ?></td>
 									<td><?php echo $urow['title']; ?></td>
 									<td><?php echo $urow['text']; ?></td>
                                     <td><?php echo $urow['category']; ?></td>
@@ -43,7 +44,8 @@
 
 
                                         ?></td>
-									<td><button class="btn btn-success" data-toggle="modal" data-target="#edit<?php echo $urow['id']; ?>"><span class = "glyphicon glyphicon-pencil"></span> Edit</button> | <button class="btn btn-danger delete" value="<?php echo $urow['id']; ?>"><span class = "glyphicon glyphicon-trash"></span> Delete</button>
+									<td><button class="btn btn-success" data-toggle="modal" data-target="#edit<?php echo $urow['id']; ?>"><span class="glyphicon glyphicon-pencil"></span> &nbsp; Edit &nbsp; </button>
+                                        <button class="btn btn-danger delete" value="<?php echo $urow['id']; ?>"><span class = "glyphicon glyphicon-trash"></span> Delete</button>
 									<?php include('edit_modal.php'); ?>
 									</td>
 								</tr>

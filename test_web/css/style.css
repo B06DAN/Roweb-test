@@ -201,18 +201,8 @@
 
 /* END carousel style */
 
-
-
-
-
-
-
-
-
 /*START three-row-desc*/
 /* Aici completeaza CSS */
-
-
 p.title{
     font-family: "Rubik", sans-serif;
     font-size: 21px;
@@ -242,7 +232,6 @@ p#description{
     margin-top: 30px;
 }
 
-
 .minicontainer:hover > .title{
     cursor: pointer;
     text-decoration: underline;
@@ -254,35 +243,20 @@ p#description{
     -moz-box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.6);
     box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.3);
 }
-
-
 /* END three-row-desc*/
-
-
-
-
-
-
-
-
 
 /* START BLUE ROW*/
 /* Aici completeaza CSS */
 .blue-banner{
-    /*position: absolute;*/
     background-color: #03a9f4;
     height: 100px;
     width: 100% !important;
     text-align: center;
     margin-top: 130px;
     margin-bottom: 60px;
-
 }
 .paragraf{
-    /*position: absolute;  !* !*POTI SA IL MODIFICI PE ASTA*!*!*/
     padding-top: 35px;
-    margin-left: auto;
-    margin-right: auto;/* !*POTI SA O STERGI PE ASTA*!*/
     font-size: 25px;
     color:#FFF;
     vertical-align: middle;
@@ -295,28 +269,17 @@ p#description{
 img.sageata{
     padding-left: 50px;
     position: absolute;
-    transition: 0.2s linear;
-
+    transition: 0.4s ease-in-out;
 }
 
 .blue-banner :hover > img.sageata{
     cursor: pointer;
-    /*position:absolute;*/
-    /*padding-right: 80px;*/
     margin-left: 50px;
-    /*padding-top: 0px;*/
-
 }
-/*.sageata{*/
-/*position:absolute;*/
-/*}*/
 /* END BLUE ROW*/
 
 
-
-
 /* START CASE section */
-
 .case-section-container {
     margin-bottom: 90px; }
 .case-section-container .case-section h5 {

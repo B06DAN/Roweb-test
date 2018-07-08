@@ -123,15 +123,8 @@
 
 
 
-
-<!--AICI COMPLETEAZA CODUL !!!!!!!-->
-<!--AICI COMPLETEAZA CODUL-->
-<!--AICI COMPLETEAZA CODUL-->
-<!--AICI COMPLETEAZA CODUL-->
-<!--AICI COMPLETEAZA CODUL-->
-<!--AICI COMPLETEAZA CODUL-->
-
 <div class='container-fluid three-row-container'>
+    <!-- Aici completeaza HTML -->
     <div class="container" style="margin-top: 50px;">
         <div class="row" style="margin-left:40px;">
             <div class="col-md-4" style="width:300px; margin-right:50px;">
@@ -165,21 +158,17 @@
 
 
 <div class='container-fluid' style="padding:0;">
+    <!-- Aici completeaza HTML -->
     <div class="blue-banner" style = "cursor: pointer;">
         <div class="paragraf">Check how we can kickstart your smart projects
-<!--            <div class="image">-->
-                <img class="sageata" src="images/arrow.svg" alt="arrow">
-<!--                </div>-->
-            </div>
+            <!--            <div class="image">-->
+            <img class="sageata" src="images/arrow.svg" alt="arrow">
+            <!--                </div>-->
         </div>
-
     </div>
+
 </div>
-<!--AICI COMPLETEAZA CODUL-->
-<!--AICI COMPLETEAZA CODUL-->
-<!--AICI COMPLETEAZA CODUL-->
-<!--AICI COMPLETEAZA CODUL-->
-<!--AICI COMPLETEAZA CODUL-->
+
 
 <div class='container-fluid case-section-container'>
     <div class='row'>
@@ -257,23 +246,15 @@
 </div>
 
 
-
-<!--AICI TREBUIE SA COMPLETEZI-->
-<!--AICI TREBUIE SA COMPLETEZI-->
-<!--AICI TREBUIE SA COMPLETEZI-->
-<!--AICI TREBUIE SA COMPLETEZI-->
-
 <div class='container-fluid' style="padding:50px 0 60px 0 ;">
+    <!-- Aici completeaza HTML -->
     <div class="blue-banner" style="margin-top: 25px !important;">
         <p class="paragraf">Check how we can kickstart your smart projects
             <img class="sageata" src="images/arrow.svg" alt="arrow">
         </p>
     </div>
 </div>
-<!--AICI TREBUIE SA COMPLETEZI-->
-<!--AICI TREBUIE SA COMPLETEZI-->
-<!--AICI TREBUIE SA COMPLETEZI-->
-<!--AICI TREBUIE SA COMPLETEZI-->
+
 
 <div class='container-fluid'>
     <div class='row'>
