@@ -1,6 +1,6 @@
 <?php
 	include('conn.php');
-//echo "Are you sure?";
+
 	if(isset($_POST['del'])){
 
 		$id=$_POST['id'];

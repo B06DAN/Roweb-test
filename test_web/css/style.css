@@ -201,10 +201,70 @@
 
 /* END carousel style */
 
+
+
+
+
+
+
+
+
 /*START three-row-desc*/
 /* Aici completeaza CSS */
 
+
+p.title{
+    font-family: "Rubik", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#text{
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #03a9f4;
+    margin-top:22px !important;
+    margin-bottom: 15px !important;
+}
+
+p#description{
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    color: #878c90;
+}
+
+.umbra{
+    width: 300px;
+    margin-top: 30px;
+}
+
+
+.minicontainer:hover > .title{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.minicontainer:hover > .umbra{
+    cursor: pointer;
+    -webkit-box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.6);
+    box-shadow: 4px 5px 8px -1px rgba(0,0,0,0.3);
+}
+
+
 /* END three-row-desc*/
+
+
+
+
+
+
+
+
 
 /* START BLUE ROW*/
 /* Aici completeaza CSS */
@@ -217,86 +277,42 @@
     margin-top: 130px;
     margin-bottom: 60px;
 
-
 }
-p.paragraf{
-    position: absolute;
+.paragraf{
+    /*position: absolute;  !* !*POTI SA IL MODIFICI PE ASTA*!*!*/
     padding-top: 35px;
-    padding-left: 480px;
-    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;/* !*POTI SA O STERGI PE ASTA*!*/
+    font-size: 25px;
     color:#FFF;
     vertical-align: middle;
     text-align: center;
     font-family: "Rubik", sans-serif;
     font-weight: bold;
-}
 
-p.title{
-    font-family: "Rubik", sans-serif;
-    font-size: 21px;
-    font-weight: bold;
-    /*cursor: pointer;*/
-}
-
-
-
-
-/*CUM POT SA LE COMBIN PE ASTEA 2??*/
-/*CUM POT SA LE COMBIN PE ASTEA 2??*/
-/*CUM POT SA LE COMBIN PE ASTEA 2??*/
-p.title:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.umbra:hover{
-    box-shadow: 2px 3px #b8b8b8;
-}
-/*CUM POT SA LE COMBIN PE ASTEA 2??*/
-/*CUM POT SA LE COMBIN PE ASTEA 2??*/
-/*CUM POT SA LE COMBIN PE ASTEA 2??*/
-
-p#description{
-    font-family: "Work Sans", sans-serif;
-    font-size: 14px;
-    color: #878c90;
 }
 
 img.sageata{
-    padding-left: 10px;
+    padding-left: 50px;
+    position: absolute;
+    transition: 0.2s linear;
 
-    position: relative;
-    /*top: -1px;*/
-    /*    -webkit-transition: -webkit-transform 0.3s ease;
-        transition: -webkit-transform 0.3s ease;
-        transition: transform 0.3s ease;
-        transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-        vertical-align: middle;*/
 }
 
 .blue-banner :hover > img.sageata{
+    cursor: pointer;
     /*position:absolute;*/
     /*padding-right: 80px;*/
-    transition: 0.3s;
-    padding-left: 50px;
+    margin-left: 50px;
+    /*padding-top: 0px;*/
 
 }
-
-
+/*.sageata{*/
+/*position:absolute;*/
+/*}*/
 /* END BLUE ROW*/
 
-#text{
-    text-decoration: none;
-    font-family: "Work Sans", sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    text-align: left;
-    color: #03a9f4;
-    margin-top:22px !important;
-    margin-bottom: 15px !important;
 
-}
 
 
 /* START CASE section */

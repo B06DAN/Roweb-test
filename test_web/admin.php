@@ -50,7 +50,7 @@ include('conn.php');
 <script type = "text/javascript">
     $(document).ready(function(){
         showUser();
-        
+
         //Add New
         $(document).on('click', '#addnew', function(){
             if ($('#title').val()=="" || $('#text').val()=="" || $('#category').val()==""){
@@ -78,19 +78,20 @@ include('conn.php');
 
         //Delete
         $(document).on('click', '.delete', function(){
-            alert('Are you sure?');
-            $id=$(this).val();
-            $.ajax({
-                type: "POST",
-                url: "delete.php",
-                data: {
-                    id: $id,
-                    del: 1,
-                },
-                success: function(){
-                    showUser();
-                }
-            });
+            if(confirm('Are you sure?')){
+                $id = $(this).val();
+                $.ajax({
+                    type: "POST",
+                    url: "delete.php",
+                    data: {
+                        id: $id,
+                        del: 1,
+                    },
+                    success: function () {
+                        showUser();
+                    }
+                });
+            }
         });
 
         //Update
